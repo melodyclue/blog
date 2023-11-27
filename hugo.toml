@@ -1,0 +1,35 @@
+baseURL = "http://localhost:1313"
+languageCode = "ja-JP"
+theme = "gists"
+title = "Melodyclue blog"
+pygmentsCodeFences = true
+paginate = 10
+
+[context.production.environment]
+TZ = "Asia/Tokyo"
+
+[params]
+  author = "router.melody"
+  resume = "My technical gists"
+  description = "Frontend engineer from Japan🇯🇵"
+  email = "melody.router@gmail.com"
+  keywords = "blog, minimal, technical"
+  rss = true
+  favicon = "/images/avatar.png"
+  avatar = "/images/avatar.png"
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'catppuccin-macchiato'
+    tabWidth = 2

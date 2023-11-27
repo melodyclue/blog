@@ -1,0 +1,3 @@
+[submodule "themes/gists"]
+	path = themes/gists
+	url = git@github.com:melodyclue/hugo-theme-gists.git
