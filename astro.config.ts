@@ -10,10 +10,8 @@ import icon from "astro-icon";
 import expressiveCode from "astro-expressive-code";
 import { expressiveCodeOptions } from "./src/site.config";
 
-// https://astro.build/config
+/** @type {import('astro').AstroUserConfig} */
 export default defineConfig({
-	output: "static",
-	// ! Please remember to replace the following site property with your own domain
 	site: "https://melodyclue.com",
 	markdown: {
 		remarkPlugins: [remarkUnwrapImages, remarkReadingTime],
