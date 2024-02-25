@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://melodyclue.com/sitemap-index.xml

@@ -1,0 +1,15 @@
+{
+	"editor.formatOnSave": true,
+	"[markdown]": {
+		"editor.wordWrap": "on",
+		"editor.codeActionsOnSave": {
+			"source.fixAll.markdownlint": "explicit"
+		},
+		"editor.quickSuggestions": {
+			"other": true,
+			"comments": false,
+			"strings": true
+		}
+	},
+	"prettier.documentSelectors": ["**/*.astro"]
+}

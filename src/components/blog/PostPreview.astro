@@ -1,0 +1,51 @@
+---
+import type { CollectionEntry } from "astro:content";
+import type { HTMLTag, Polymorphic } from "astro/types";
+import FormattedDate from "../FormattedDate.astro";
+// import TagIcon from "/tag-icon.svg?raw";
+
+type Props<Tag extends HTMLTag> = Polymorphic<{ as: Tag }> & {
+	post: CollectionEntry<"post">;
+	withDesc?: boolean;
+};
+
+const { post, as: Tag = "div", withDesc = false } = Astro.props as Props<HTMLTag>;
+const postDate = post.data.updatedDate ?? post.data.publishDate;
+
+const { Content } = await post.render();
+---
+
+<Tag class="w-full border-b py-4">
+	{post.data.draft && <span class="text-red-500">(Draft) </span>}
+	<h2 class="text-[20px] font-bold leading-8 md:text-[26px]">
+		{post.data.title}
+	</h2>
+	<div
+		class="prose prose-sm prose-cactus mt-4 max-w-full leading-7 prose-headings:font-semibold prose-headings:text-accent-2 prose-headings:before:absolute prose-headings:before:-ms-4 prose-headings:before:text-accent prose-headings:before:content-['#'] prose-th:before:content-none"
+	>
+		<Content />
+	</div>
+	<div class="mt-4 flex w-full items-end justify-between">
+		{
+			!!post.data.tags.length && (
+				<ul class="flex flex-wrap gap-2 text-bgColor">
+					{post.data.tags.map((tag) => (
+						<li>
+							<a
+								class="flex items-center justify-center rounded-lg bg-accent px-2.5 py-0.5 text-[12px]"
+								href={`/tags/${tag}/`}
+								aria-label={`View all posts with the tag: ${tag}`}
+							>
+								{tag}
+							</a>
+						</li>
+					))}
+				</ul>
+			)
+		}
+
+		<FormattedDate date={postDate} class="text-[12px] text-gray-600 dark:text-gray-400" />
+	</div>
+</Tag>
+
+{withDesc && <p class="line-clamp-3 block italic">{post.data.description}</p>}
