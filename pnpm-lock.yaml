@@ -20,6 +20,9 @@ dependencies:
   '@fontsource-variable/noto-sans-jp':
     specifier: ^5.0.17
     version: 5.0.17
+  '@formkit/tempo':
+    specifier: ^0.0.13
+    version: 0.0.13
   astro:
     specifier: 4.4.4
     version: 4.4.4(typescript@5.3.3)
@@ -870,6 +873,10 @@ packages:
 
   /@fontsource-variable/noto-sans-jp@5.0.17:
     resolution: {integrity: sha512-Nn/FXR3A/dNIYcRKNXEM/DVxRs6prfT38Z69N08MG26gMnVRXiAUsWADAr4VrOGOeNlLoEnDLD7TXTxFymq6Ww==}
+    dev: false
+
+  /@formkit/tempo@0.0.13:
+    resolution: {integrity: sha512-DV13jzjwcjvIqQh1j7MJikd8s7+/bIqKB65zJObUszlIzE22YwLcoPqhB+qLwGtcAxTRTD5Ofy5DFTGW1FQpnA==}
     dev: false
 
   /@humanwhocodes/config-array@0.11.14:

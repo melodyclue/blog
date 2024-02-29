@@ -1,7 +1,8 @@
 ---
 import { menuLinks, siteConfig } from "@/site-config";
+import { format } from "@formkit/tempo";
 
-const year = new Date().getFullYear();
+const year = format(new Date(), "YYYY");
 ---
 
 <footer
