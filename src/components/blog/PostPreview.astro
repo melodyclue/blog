@@ -46,6 +46,7 @@ const { Content } = await post.render();
 
 		<FormattedDate date={postDate} class="text-[12px] text-gray-600 dark:text-gray-400" />
 	</div>
+	<div class="hidden">{post.slug}</div>
 </Tag>
 
 {withDesc && <p class="line-clamp-3 block italic">{post.data.description}</p>}
