@@ -58,7 +58,7 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 		<ul class="space-y-4">
 			{
 				allPostsByDate.map((p) => (
-					<li class="flex flex-col gap-x-2 sm:flex-row">
+					<li id={`${p.slug}`} class="flex flex-col gap-x-2 sm:flex-row">
 						<PostPreview post={p} as="div" />
 					</li>
 				))
