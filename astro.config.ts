@@ -9,6 +9,7 @@ import { remarkReadingTime } from "./src/utils/remark-reading-time";
 import icon from "astro-icon";
 import expressiveCode from "astro-expressive-code";
 import { expressiveCodeOptions } from "./src/site.config";
+import partytown from "@astrojs/partytown";
 
 /** @type {import('astro').AstroUserConfig} */
 export default defineConfig({
@@ -38,6 +39,12 @@ export default defineConfig({
 		}),
 		sitemap(),
 		mdx(),
+		partytown({
+			// Adds dataLayer.push as a forwarding-event.
+			config: {
+				forward: ["dataLayer.push"],
+			},
+		}),
 	],
 	image: {
 		domains: ["webmention.io"],
