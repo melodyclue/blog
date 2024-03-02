@@ -6,7 +6,7 @@ tags: ["ps5"]
 draft: false
 ---
 
-### (！！ネタバレ注意！！)
+⚠️ネタバレ注意！！
 
 [Horizon Forbidden West](https://www.playstation.com/ja-jp/games/horizon-forbidden-west/)
 
