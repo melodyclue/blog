@@ -7,7 +7,7 @@ export const siteConfig: SiteConfig = {
 	// Meta property used to construct the meta title property, found in src/components/BaseHead.astro L:11
 	title: "Melodyclue",
 	// Meta property used as the default description meta property
-	description: "A Posts about programming, and life.",
+	description: "プログラミングや日常についてのノート",
 	// HTML lang property, found in src/layouts/Base.astro L:18
 	lang: "ja-JP",
 	// Meta property, found in src/components/BaseHead.astro L:42
@@ -21,9 +21,9 @@ export const siteConfig: SiteConfig = {
 			year: "numeric",
 		},
 	},
-	webmentions: {
-		link: "https://webmention.io/melodyclue.com/webmention",
-	},
+	// webmentions: {
+	// 	link: "https://webmention.io/melodyclue.com/webmention",
+	// },
 };
 
 // Used to generate links in both the Header & Footer.
