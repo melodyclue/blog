@@ -1,7 +1,7 @@
 ---
 title: "Horizon Forbidden West - 一番好きなPS5ゲームソフト"
 description: ""
-publishDate: 02 March 2024
+publishDate: 02 March 2024 14:00
 tags: ["ps5"]
 draft: false
 ---
