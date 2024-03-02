@@ -9,4 +9,4 @@ draft: false
 Remixのスタータープロジェクトのひとつ
 Remixの作法がたくさん詰まっているので、ここから始めるのが良いかも
 
-s://github.com/epicweb-dev/epic-stack
+https://github.com/epicweb-dev/epic-stack
