@@ -32,4 +32,13 @@
 	html body {
 		@apply mx-auto flex min-h-screen max-w-3xl flex-col bg-bgColor px-8 pt-16 text-sm font-normal text-textColor antialiased;
 	}
+
+	code {
+		@apply rounded-md bg-slate-100 px-2 py-0.5 dark:bg-slate-700;
+
+		&::before,
+		&:after {
+			content: "" !important;
+		}
+	}
 }

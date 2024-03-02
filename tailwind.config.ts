@@ -60,10 +60,10 @@ export default {
 						strong: {
 							fontWeight: "700",
 						},
-						code: {
-							border: "1px dotted #666",
-							borderRadius: "2px",
-						},
+						// code: {
+						// 	border: "1px solid #666",
+						// 	borderRadius: "2px",
+						// },
 						blockquote: {
 							borderLeftWidth: "0",
 						},
