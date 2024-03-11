@@ -1,4 +1,4 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
 
 settings:
   autoInstallPeers: true
@@ -21,8 +21,8 @@ dependencies:
     specifier: ^5.0.17
     version: 5.0.17
   '@formkit/tempo':
-    specifier: ^0.0.13
-    version: 0.0.13
+    specifier: ^0.0.15
+    version: 0.0.15
   astro:
     specifier: 4.4.6
     version: 4.4.6(typescript@5.3.3)
@@ -890,8 +890,8 @@ packages:
     resolution: {integrity: sha512-Nn/FXR3A/dNIYcRKNXEM/DVxRs6prfT38Z69N08MG26gMnVRXiAUsWADAr4VrOGOeNlLoEnDLD7TXTxFymq6Ww==}
     dev: false
 
-  /@formkit/tempo@0.0.13:
-    resolution: {integrity: sha512-DV13jzjwcjvIqQh1j7MJikd8s7+/bIqKB65zJObUszlIzE22YwLcoPqhB+qLwGtcAxTRTD5Ofy5DFTGW1FQpnA==}
+  /@formkit/tempo@0.0.15:
+    resolution: {integrity: sha512-jDz5yrCAG2gPoalgoqKUtJWOgdLGCtHgBYLZBRUjAUpvX5DMBAJz2QqyfTdLhXCfhfOrugl2FQtSaBxIPcKcyw==}
     dev: false
 
   /@humanwhocodes/config-array@0.11.14:
