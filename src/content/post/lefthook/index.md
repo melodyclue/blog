@@ -2,7 +2,7 @@
 title: "lefthookでコミット時のlintを自動化する"
 description: ""
 publishDate: 12 March 2024
-tags: ['lefthook']
+tags: ["lefthook"]
 draft: false
 ---
 
@@ -16,6 +16,6 @@ draft: false
 ```yml title="lefthook.yml"
 commit-msg:
   commands:
-    lint-commit-msg:
-      run: npx commitlint --edit
+    "lint commit message":
+      run: yarn run commitlint --edit {1}
 ```
