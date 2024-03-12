@@ -12,13 +12,13 @@
 		"check": "astro check"
 	},
 	"dependencies": {
-		"@astrojs/mdx": "2.1.1",
+		"@astrojs/mdx": "2.2.0",
 		"@astrojs/rss": "4.0.5",
 		"@astrojs/sitemap": "3.1.1",
 		"@astrojs/tailwind": "5.1.0",
-		"@fontsource-variable/noto-sans-jp": "^5.0.17",
-		"@formkit/tempo": "^0.0.13",
-		"astro": "4.4.6",
+		"@fontsource-variable/noto-sans-jp": "^5.0.18",
+		"@formkit/tempo": "^0.0.15",
+		"astro": "4.5.1",
 		"astro-expressive-code": "^0.33.4",
 		"astro-icon": "^1.1.0",
 		"rehype-external-links": "^3.0.0",
@@ -27,7 +27,7 @@
 		"sharp": "^0.33.2"
 	},
 	"devDependencies": {
-		"@astrojs/check": "^0.5.6",
+		"@astrojs/check": "^0.5.7",
 		"@astrojs/partytown": "^2.0.4",
 		"@iconify-json/mdi": "^1.1.64",
 		"@pagefind/default-ui": "^1.0.4",
@@ -35,10 +35,10 @@
 		"@tailwindcss/aspect-ratio": "^0.4.2",
 		"@tailwindcss/typography": "^0.5.10",
 		"@types/eslint": "^8.56.5",
-		"@typescript-eslint/eslint-plugin": "^7.1.0",
-		"@typescript-eslint/parser": "^7.1.0",
+		"@typescript-eslint/eslint-plugin": "^7.2.0",
+		"@typescript-eslint/parser": "^7.2.0",
 		"astro-eslint-parser": "^0.16.3",
-		"autoprefixer": "^10.4.17",
+		"autoprefixer": "^10.4.18",
 		"eslint": "^8.57.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-import-resolver-typescript": "^3.6.1",
@@ -53,11 +53,11 @@
 		"postcss-import": "^16.0.1",
 		"prettier": "^3.2.5",
 		"prettier-plugin-astro": "0.13.0",
-		"prettier-plugin-tailwindcss": "^0.5.11",
+		"prettier-plugin-tailwindcss": "^0.5.12",
 		"reading-time": "^1.5.0",
 		"remark-unwrap-images": "^4.0.0",
 		"tailwindcss": "^3.4.1",
-		"typescript": "^5.3.3"
+		"typescript": "^5.4.2"
 	},
 	"packageManager": "pnpm@8.6.1"
 }
