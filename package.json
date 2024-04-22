@@ -19,7 +19,7 @@
 		"@fontsource-variable/noto-sans-jp": "^5.0.18",
 		"@formkit/tempo": "^0.0.15",
 		"astro": "4.5.1",
-		"astro-expressive-code": "^0.33.4",
+		"astro-expressive-code": "^0.35.2",
 		"astro-icon": "^1.1.0",
 		"rehype-external-links": "^3.0.0",
 		"satori": "0.10.13",
